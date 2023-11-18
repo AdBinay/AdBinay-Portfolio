@@ -268,7 +268,8 @@
     width: 100%;
     height: 80vh;
     padding: 0 2rem;
-    background: var(--main-gray);
+    background-color: #ffffff;
+    color: var(--main-red);
   }
   
   .contact-section-header > h2 {
@@ -296,8 +297,9 @@
   
   .contact-details {
     font-size: 2.4rem;
-    text-shadow: 2px 2px 1px #1f1f1f;
+    text-shadow: 2px 2px 1px #fefdfe;
     transition: transform 0.3s ease-out;
+    color: var(--main-red);
   }
   
   .contact-details:hover {
@@ -332,6 +334,18 @@
 .profile-pic{
     border-radius: 50%;
     height: 40vh;
+}
+.partners{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2rem;
+  width: 80%;
+  margin-bottom: 5rem;
+}
+.p1 , .p2, .p3, .p4{
+  height: 150px;
+  width: 300px;
 }
 
   
