@@ -328,5 +328,10 @@
       flex-direction: column;
       text-align: center;
     }
-  }
+}
+.profile-pic{
+    border-radius: 50%;
+    height: 40vh;
+}
+
   
